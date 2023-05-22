@@ -4,11 +4,11 @@
   "version": "1.0",
   "author": "Vidhu Vikas Singh",
   "description": "It formats/prettifies the code written in Algozenith problems",
-  "permissions": ["tabs"],
+  "permissions": ["tabs","storage"],
   "content_scripts": [
     {
       "matches": [
-        "https://*.learning.algozenith.com/*"
+        "https://*.learning.algozenith.com/problems/*"
       ],
       "js": [
         "content.js"

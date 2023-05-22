@@ -10,11 +10,14 @@
 
 var parentElement = document.querySelector(".ml-auto")
 
+var divElement = document.createElement('div')
+
 var formatBTN = document.createElement('button')
 
 formatBTN.style.borderRadius="10px"
 
 formatBTN.textContent="Format"
 
-parentElement.appendChild(formatBTN)
+parentElement.appendChild(divElement)
+divElement.appendChild(formatBTN)
 
