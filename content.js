@@ -25,5 +25,7 @@ SubmitButton.parentElement.style.display="flex"
 SubmitButton.parentElement.style.flexDirection="row"
 
 //Reading the input from input field:
-var code = document.querySelector(".CodeMirror-lines").value
-console.log(code)
+formatBTN.addEventListener('click',function(){
+    var code = document.querySelector(".CodeMirror-lines").value
+    console.log(code)
+})
