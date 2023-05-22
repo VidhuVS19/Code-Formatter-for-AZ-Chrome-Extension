@@ -16,6 +16,7 @@ const formatBTN = document.createElement('button')
 formatBTN.style.borderRadius="10px"
 formatBTN.style.backgroundColor="pink"
 formatBTN.textContent="Format"
+formatBTN._ngcontent-ckx-c34
 divElement.appendChild(formatBTN)
 SubmitButton.parentElement.append(divElement)
 SubmitButton.parentElement.style.display="flex"
