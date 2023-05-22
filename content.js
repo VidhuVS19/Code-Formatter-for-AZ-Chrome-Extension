@@ -14,8 +14,10 @@ const SubmitButton = document.querySelector(".submit_btn")
 const divElement = document.createElement('div')
 const formatBTN = document.createElement('button')
 formatBTN.style.borderRadius="10px"
-formatBTN.style.backgroundColor="yellow"
+formatBTN.style.backgroundColor="pink"
 formatBTN.textContent="Format"
 divElement.appendChild(formatBTN)
-SubmitButton.append(divElement)
+SubmitButton.parentElement.append(divElement)
+SubmitButton.parentElement.style.display="flex"
+SubmitButton.parentElement.style.flexDirection="row"
 
