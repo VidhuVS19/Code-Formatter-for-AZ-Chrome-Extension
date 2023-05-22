@@ -10,15 +10,20 @@
 //<a _ngcontent-ckx-c34="" class="btn btn-success submit_btn mr-1"><span _ngcontent-ckx-c34="" class="px-2">Submit </span></a>
 
 //const parentElement = document.querySelector(".ml-auto")
+//Format Button:
 const SubmitButton = document.querySelector(".submit_btn")
 const divElement = document.createElement('div')
 const formatBTN = document.createElement('button')
 formatBTN.style.borderRadius="10px"
 formatBTN.style.backgroundColor="pink"
 formatBTN.textContent="Format"
-
+formatBTN.style.height="40px"
+formatBTN.style.width="80px"
 divElement.appendChild(formatBTN)
 SubmitButton.parentElement.append(divElement)
 SubmitButton.parentElement.style.display="flex"
 SubmitButton.parentElement.style.flexDirection="row"
 
+//Reading the input from input field:
+var code = document.querySelector(".CodeMirror-lines").value
+console.log(code)
