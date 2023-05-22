@@ -16,7 +16,7 @@
     }
   ],
   "background": {
-    "scripts": [
+    "service-worker": [
       "background.js"
     ]
   },
