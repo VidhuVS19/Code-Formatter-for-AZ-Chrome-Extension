@@ -23,8 +23,8 @@
     ]
   },
   "browser_action": {
-    "default_icon": "assets/logo.png",
+    "default_icon": "/assets/logo.png",
     "default_popup": "index.html",
-    "default_title": "AZ Code Formatter"
+    "default_title": "AZ CODE Formatter"
   }
 }
