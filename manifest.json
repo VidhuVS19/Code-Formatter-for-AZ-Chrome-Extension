@@ -1,7 +1,7 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "AZ Code Formatter",
-  "version": "0.1",
+  "version": "1.0",
   "author": "Vidhu Vikas Singh",
   "description": "It formats/prettifies the code written in Algozenith problems",
   "permissions": ["tabs"],
