@@ -23,9 +23,8 @@
   "icons": {
       "16":"/assets/logo.png"
   },
-  "browser_action": {
+  "action": {
     "default_icon": "/assets/logo.png",
-    "default_popup": "index.html",
     "default_title": "AZ CODE Formatter"
   }
 }
