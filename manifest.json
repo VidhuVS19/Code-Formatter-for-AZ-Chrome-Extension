@@ -15,11 +15,15 @@
       ]
     }
   ],
-  "background": {
-    "service-worker": [
-      "background.js"
-    ]
-  },
+  "web_accessible_resources": [
+    {
+      "resources": ["beautify.js", "script.js"],
+      "matches": [
+        "https://learning.algozenith.com/*",
+        "https://*.algozenith.com/*"
+      ]
+    }
+  ],
   "icons": {
       "16":"/assets/logo.png"
   },
