@@ -1,6 +1,6 @@
 # az-code-formatter
 
-[![Video]](https://github.com/VidhuVS19/Code-Formatter-for-AZ-Chrome-Extension/raw/main/assets/Code%20Format%20Video(1).mp4)
+[![Video Demonstration]](https://github.com/VidhuVS19/Code-Formatter-for-AZ-Chrome-Extension/raw/main/assets/Code%20Format%20Video(1).mp4)
       <!-- https://github.com/VidhuVS19/Code-Formatter-for-AZ-Chrome-Extension/raw/main/assets/Code%20Format%20Video(1).mp4 -->
 <!-- [![Video]](https://github.com/VidhuVS19/Code-Formatter-for-AZ-Chrome-Extension/blob/main/assets/Code%20Format%20Video(1).mp4) -->
 ## Steps to Use a Chrome Extension from this GitHub Repository
