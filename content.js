@@ -1,31 +1,11 @@
-// content.js
-// Author:
-// Author URI: https://
-// Author Github URI: https://www.github.com/
-// Project Repository URI: https://github.com/
-// Description: Handles all the webpage level activities (e.g. manipulating page data, etc.)
-// License: MIT
+// Install beautify
+let s = document.createElement("script");
+s.type = "module";
+s.src = chrome.runtime.getURL("beautify.js");
+(document.head || document.documentElement).appendChild(s);
 
-//<a _ngcontent-hib-c34="" class="ml-auto">
-//<a _ngcontent-ckx-c34="" class="btn btn-success submit_btn mr-1"><span _ngcontent-ckx-c34="" class="px-2">Submit </span></a>
-
-//const parentElement = document.querySelector(".ml-auto")
-//Format Button:
-const SubmitButton = document.querySelector(".submit_btn")
-const divElement = document.createElement('div')
-const formatBTN = document.createElement('button')
-formatBTN.style.borderRadius="10px"
-formatBTN.style.backgroundColor="pink"
-formatBTN.textContent="Format"
-formatBTN.style.height="40px"
-formatBTN.style.width="80px"
-divElement.appendChild(formatBTN)
-SubmitButton.parentElement.append(divElement)
-SubmitButton.parentElement.style.display="flex"
-SubmitButton.parentElement.style.flexDirection="row"
-
-//Reading the input from input field:
-formatBTN.addEventListener('click',function(){
-    var code = document.querySelector(".CodeMirror-lines").value
-    console.log(code)
-})
+// import script
+let dom_elem = document.createElement("script");
+dom_elem.type = "module";
+dom_elem.src = chrome.runtime.getURL("script.js");
+(document.head || document.documentElement).appendChild(dom_elem);
