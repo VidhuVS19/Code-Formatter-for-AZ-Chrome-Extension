@@ -1,7 +1,8 @@
 # az-code-formatter
 
-[![Video]](https://github.com/VidhuVS19/Code-Formatter-for-AZ-Chrome-Extension/blob/main/assets/Code%20Format%20Video(1).mp4)
-
+[![Video]](https://github.com/VidhuVS19/Code-Formatter-for-AZ-Chrome-Extension/raw/main/assets/Code%20Format%20Video(1).mp4)
+      <!-- https://github.com/VidhuVS19/Code-Formatter-for-AZ-Chrome-Extension/raw/main/assets/Code%20Format%20Video(1).mp4 -->
+<!-- [![Video]](https://github.com/VidhuVS19/Code-Formatter-for-AZ-Chrome-Extension/blob/main/assets/Code%20Format%20Video(1).mp4) -->
 ## Steps to Use a Chrome Extension from this GitHub Repository
 
 1. **Clone the Repository**: Start by cloning the GitHub repository of the Chrome extension to your local machine. You can use the following command in your terminal:
